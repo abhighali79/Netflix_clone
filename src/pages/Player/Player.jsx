@@ -38,7 +38,7 @@ useEffect(()=>{
       <div className="player-info">
         <p>{apiData.published_at.slice(0,10)}</p>
         <p>{apiData.name}</p>
-        <p>{apiData.Type}</p>
+        <p>{apiData.type}</p>
       </div>
     </div>
   )
